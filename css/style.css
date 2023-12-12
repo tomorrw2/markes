@@ -353,3 +353,48 @@ top: 10px;
 #pop li:hover ul, #pop ul li:hover ul, #pop ul ul li:hover ul, #pop li.iehover ul, #pop ul li.iehover ul, #pop ul ul li.iehover ul {
 	display: block;
 }
+
+ 
+.images {
+	height: 500px;
+	font-family: DroidKufi-Regular,tahoma;
+    text-align: center;
+    margin: 50px;
+	overflow: scroll;
+}
+
+h1 {
+	margin: 50px;
+	text-align: center;
+    color: #333;
+}
+
+.external-link {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.external-link img {
+    width: 170px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.external-link img:hover {
+    transform: scale(1.1);
+}
+
+.external-link p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.external-link a {
+    text-decoration: none;
+    color: #007BFF;
+    display: block;
+    margin-top: 5px;
+}
