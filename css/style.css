@@ -83,17 +83,21 @@ body {
 	background-repeat: no-repeat;
 	font-family: ge-ss-med,tahoma;
 	text-align: center;
-	font-size: 70%;
+	font-size: 105%;
 	/* margin: 17px auto auto 40px; */
 
 }
 .hix {
 	font-family: DroidKufi-Regular,tahoma;
 	text-align: center;
+	font-size: 105%;
 	font-weight:bold;
 	margin-top: 7%;
     margin-right: -12%;
-    font-size: 3vw;
+    
+}
+li{
+	font-size: 20px;
 }
 /* قسم التصميم وحدات النسب وتوسيع الهيكل ليكون متجاوبًا */
 .home {
